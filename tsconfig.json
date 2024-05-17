@@ -15,7 +15,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "downlevelIteration": true,
-    "target": "es6",
+    "target": "es2020",
     "strictNullChecks": true,
     "typeRoots": [
       "node_modules/@types"

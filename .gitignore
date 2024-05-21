@@ -14,3 +14,6 @@ typings
 /dist
 .DS_Store
 src/.DS_Store
+
+# Ignore builds
+*.tgz

@@ -89,18 +89,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-avatar-demo:build"
+            "buildTarget": "ngx-avatar-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-avatar-demo:build:production"
+              "buildTarget": "ngx-avatar-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-avatar-demo:build"
+            "buildTarget": "ngx-avatar-demo:build"
           }
         },
         "test": {
@@ -148,7 +148,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:build",
           "options": {
             "tsConfig": "projects/ngx-avatar/tsconfig.lib.json",
             "project": "projects/ngx-avatar/ng-package.json"
@@ -171,6 +171,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ngx-avatar-demo"
+  }
 }

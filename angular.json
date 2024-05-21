@@ -148,7 +148,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:build",
           "options": {
             "tsConfig": "projects/ngx-avatar/tsconfig.lib.json",
             "project": "projects/ngx-avatar/ng-package.json"
